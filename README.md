@@ -1,4 +1,6 @@
-## House Price Estimation using Visual and Textual Features: Comparing Low-Resolution vs High-Resolution Images
+# Predictive House Pricing: A Deep Learning Approach with Visual and Textual Features 
+# Comparing the Influence of Low-Resolution vs High-Resolution Imagery
+
 This project aims to estimate the price of a house by leveraging both visual and textual features. Traditional methods for estimating house prices often rely solely on textual features, which may not capture the full extent of information available about a house, such as its condition, location, and amenities. We are extending this by not only combining visual features extracted from house photographs and textual features extracted from house descriptions, but also comparing the effect of the image resolution on the predictive accuracy of the model.
 
 - Key Features
