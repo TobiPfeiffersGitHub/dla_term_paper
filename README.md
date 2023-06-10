@@ -1,14 +1,12 @@
-# Predictive House Pricing: A Deep Learning Approach with Visual and Textual Features 
-# Comparing the Influence of Low-Resolution vs High-Resolution Imagery
+# Deciphering Aesthetics: Investigating the Role of Image Resolution in Housing Price Prediction Models
 
-This project aims to estimate the price of a house by leveraging both visual and textual features. Traditional methods for estimating house prices often rely solely on textual features, which may not capture the full extent of information available about a house, such as its condition, location, and amenities. We are extending this by not only combining visual features extracted from house photographs and textual features extracted from house descriptions, but also comparing the effect of the image resolution on the predictive accuracy of the model.
+This project aims to estimate the price of a house by leveraging both visual and textual features. Traditional methods for estimating house prices often rely solely on textual features, which may not capture the full extent of information available about a house, such as its condition and amenities. We are extending this by not only combining visual features extracted from house photographs and textual features, but also comparing the effect of the image resolution on the predictive accuracy of the model.
 
 - Key Features
 Utilizes a Convolutional Neural Network (CNN) to extract visual features from house photographs.
-Employs Natural Language Processing (NLP) techniques to extract textual features from house descriptions.
 Compares the predictive performance of the model trained on low-resolution images versus high-resolution images.
 Applies Grad-CAM heatmaps to interpret the regions in the images that the model is focusing on for its predictions.
-Provides a comprehensive solution for house price estimation that outperforms traditional methods.
+
 Methodology
 Data Acquisition: Obtain a dataset of houses, which includes images and corresponding textual descriptions.
 
@@ -22,5 +20,3 @@ Data Acquisition: Obtain a dataset of houses, which includes images and correspo
 
 Results and Conclusion
 The proposed method, which combines visual and textual features, has demonstrated improved accuracy in estimating house prices compared to traditional methods that rely solely on textual features. By comparing low-resolution and high-resolution images, we are able to analyze the impact of image quality on the model's predictive performance. The application of Grad-CAM further provides insights into how the model makes predictions based on visual features.
-
-This approach has the potential to be utilized by real estate agents, mortgage lenders, and other businesses involved in estimating house prices, and helps to understand the importance of image quality in such price predictions.
