@@ -18,5 +18,6 @@ Data Acquisition: Obtain a dataset of houses, which includes images and correspo
 
 - Comparison and Analysis: Evaluate the model's performance using appropriate metrics such as mean squared error (MSE) and R-square value. Apply Grad-CAM to interpret the model's focus in the images.
 
-Results and Conclusion
-The proposed method, which combines visual and textual features, has demonstrated improved accuracy in estimating house prices compared to traditional methods that rely solely on textual features. By comparing low-resolution and high-resolution images, we are able to analyze the impact of image quality on the model's predictive performance. The application of Grad-CAM further provides insights into how the model makes predictions based on visual features.
+- Results and Conclusion: 
+
+The proposed method, which combines visual and textual features, has show slight improved accuracy in estimating house prices compared to traditional methods that rely solely on textual features. By comparing low-resolution and high-resolution images, we are able to analyze the impact of image quality on the model's predictive performance. The application of Grad-CAM further provides insights into how the model makes predictions based on visual features.
